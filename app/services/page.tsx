@@ -12,7 +12,7 @@ export default function ServicesPage() {
       icon: Building,
       title: "Construction Neuve",
       description: "Construction de maisons individuelles, bâtiments commerciaux et industriels",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/artisant3.png",
       features: [
         "Maisons individuelles sur mesure",
         "Bâtiments commerciaux et industriels",
@@ -26,7 +26,7 @@ export default function ServicesPage() {
       icon: Wrench,
       title: "Rénovation & Extension",
       description: "Rénovation complète, extension et transformation de bâtiments existants",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/artisant3.png",
       features: [
         "Rénovation énergétique",
         "Extensions de maisons",
@@ -40,7 +40,7 @@ export default function ServicesPage() {
       icon: PenTool,
       title: "Architecture & Conception",
       description: "Conception architecturale, plans et suivi de projets",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/artisant3.png",
       features: [
         "Études de faisabilité",
         "Conception de plans",
@@ -57,25 +57,25 @@ export default function ServicesPage() {
       icon: Home,
       title: "Gros Œuvre",
       description: "Fondations, murs porteurs, charpente, couverture",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/artisant2.png",
     },
     {
       icon: Palette,
       title: "Second Œuvre",
       description: "Plomberie, électricité, isolation, cloisons",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/artisant2.png",
     },
     {
       icon: Building2,
       title: "Aménagement",
       description: "Finitions, peinture, revêtements, aménagements",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/artisant2.png",
     },
     {
       icon: Hammer,
       title: "Travaux Publics",
       description: "Voirie, réseaux, terrassement, assainissement",
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/artisant2.png",
     },
   ]
 

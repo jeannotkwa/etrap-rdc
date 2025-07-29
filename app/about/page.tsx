@@ -9,31 +9,32 @@ import { Navigation } from "@/components/navigation"
 export default function AboutPage() {
   const team = [
     {
-      name: "Pierre Durand",
-      role: "Directeur Général",
-      experience: "25 ans d'expérience",
-      image: "/placeholder.svg?height=300&width=300",
+      name: "Ruben NLANDU MBANZULU",
+      role: "DIRECTEUR GENERALE",
+      Profession: "Architecte",
+      experience: "15 ans d'expérience",
+      image: "renex.png",
       description: "Expert en gestion de projets de construction et développement d'entreprise.",
     },
     {
-      name: "Marie Leroy",
-      role: "Architecte en Chef",
+      name: "Maurice LOKWA LOMA",
+      role: "Chef de projet",
       experience: "15 ans d'expérience",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "renex.png",
       description: "Spécialisée en architecture durable et conception innovante.",
     },
     {
-      name: "Jean Moreau",
-      role: "Chef de Chantier",
+      name: "ORODRIQUE BATOMENE",
+      role: "DIRECTEUR TECHNIQUE",
       experience: "20 ans d'expérience",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "renex.png",
       description: "Expert en coordination de chantiers et gestion d'équipes techniques.",
     },
     {
       name: "Sophie Bernard",
       role: "Responsable Qualité",
       experience: "12 ans d'expérience",
-      image: "/placeholder.svg?height=300&width=300",
+      image: "renex.png",
       description: "Garante de la qualité et du respect des normes de construction.",
     },
   ]
@@ -71,9 +72,9 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <Badge className="mb-4 bg-yellow-500 text-black">À Propos de Nous</Badge>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">25 Ans d'Excellence dans la Construction</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">11 Ans d'Excellence dans la Construction</h1>
             <p className="text-xl max-w-3xl mx-auto">
-              Depuis 1999, nous construisons l'avenir avec passion, expertise et innovation. Découvrez notre histoire,
+              Depuis 2014, nous construisons l'avenir avec passion, expertise et innovation. Découvrez notre histoire,
               nos valeurs et l'équipe qui fait notre force.
             </p>
           </div>
@@ -87,28 +88,26 @@ export default function AboutPage() {
             <div>
               <Badge className="mb-4">Notre Histoire</Badge>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                Une Entreprise Familiale Devenue Référence
+                 L’excellence au service de vos projets de construction 
               </h2>
               <div className="space-y-4 text-gray-600">
                 <p>
-                  Fondée en 1999 par Pierre Durand, ConstructPro a débuté comme une petite entreprise familiale
-                  spécialisée dans la construction de maisons individuelles. Guidés par des valeurs d'excellence et de
-                  proximité client, nous avons progressivement élargi notre expertise.
+                  Fondée en 2014, ETRAP CP INTERNATIONAL est une entreprise congolaise à compétences multidisciplinaires, active dans les secteurs de la construction, 
+                  de l’architecture, de l’urbanisme et des techniques d’ingénierie. Forte d’une équipe dynamique et expérimentée, l’entreprise propose des solutions adaptées aux besoins des partenaires publics et privés à travers tout le territoire de la République Démocratique du Congo.
                 </p>
                 <p>
-                  Aujourd'hui, nous sommes fiers d'être reconnus comme l'un des acteurs majeurs de la construction dans
-                  la région Auvergne-Rhône-Alpes. Notre croissance s'appuie sur une équipe de 50 collaborateurs
-                  passionnés et qualifiés.
+                  Notre expertise couvre toutes les étapes du cycle de vie d’un projet, depuis l’étude et la conception jusqu’à la mise en œuvre et le suivi rigoureux des travaux. 
+                  ETRAP CP veille à ce que chaque mission soit exécutée dans le strict respect des normes en vigueur, des règles de l’art, ainsi que des engagements déontologiques les plus élevés.
                 </p>
                 <p>
-                  De la maison individuelle aux grands projets commerciaux et industriels, nous avons su diversifier nos
-                  compétences tout en conservant notre ADN : la qualité, la fiabilité et l'innovation.
+                  Nous nous engageons à offrir des services de qualité, dans une logique de performance, de durabilité et de responsabilité. Chaque projet est réalisé en tenant compte des contraintes techniques, 
+                  des ressources disponibles, et surtout des objectifs de nos partenaires. Qu’il s’agisse d’ouvrages de petite ou de grande envergure, ETRAP CP adapte ses méthodes d’exécution pour garantir un résultat à la hauteur des attentes.
                 </p>
               </div>
             </div>
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="/new.png"
                 alt="Histoire de l'entreprise"
                 width={600}
                 height={500}

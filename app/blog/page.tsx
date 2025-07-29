@@ -12,7 +12,7 @@ export default function BlogPage() {
       title: "Les Nouvelles Tendances en Construction Écologique",
       excerpt:
         "Découvrez les dernières innovations en matière de construction durable et comment nous les intégrons dans nos projets.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/new.png",
       date: "15 juin 2024",
       author: "Marie Leroy",
       readTime: "5 min",
@@ -24,7 +24,7 @@ export default function BlogPage() {
       title: "Comment Choisir le Bon Architecte pour Votre Projet",
       excerpt:
         "Un guide complet pour vous aider à sélectionner l'architecte idéal pour votre projet de construction ou de rénovation.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/new.png",
       date: "2 juin 2024",
       author: "Pierre Durand",
       readTime: "7 min",
@@ -35,8 +35,8 @@ export default function BlogPage() {
       id: 3,
       title: "Inauguration de Notre Nouveau Siège Social",
       excerpt:
-        "ConstructPro a inauguré son nouveau siège social, un bâtiment moderne et écologique qui reflète nos valeurs et notre savoir-faire.",
-      image: "/placeholder.svg?height=300&width=500",
+        "ETRAP-CP a inauguré son nouveau siège social, un bâtiment moderne et écologique qui reflète nos valeurs et notre savoir-faire.",
+      image: "/new.png",
       date: "20 mai 2024",
       author: "Jean Moreau",
       readTime: "3 min",
@@ -48,7 +48,7 @@ export default function BlogPage() {
       title: "Les Étapes Clés d'un Projet de Rénovation Réussi",
       excerpt:
         "De la planification à la réalisation, découvrez les étapes essentielles pour mener à bien votre projet de rénovation.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/new.png",
       date: "10 mai 2024",
       author: "Sophie Bernard",
       readTime: "6 min",
@@ -59,7 +59,7 @@ export default function BlogPage() {
       id: 5,
       title: "Nouvelles Réglementations Thermiques : Ce Qui Change en 2024",
       excerpt: "Un point complet sur les nouvelles normes thermiques et leur impact sur vos projets de construction.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/new.png",
       date: "1 mai 2024",
       author: "Pierre Durand",
       readTime: "8 min",
@@ -68,9 +68,9 @@ export default function BlogPage() {
     },
     {
       id: 6,
-      title: "ConstructPro Remporte le Prix de l'Innovation 2024",
+      title: "ETRAP-CP Remporte le Prix de l'Innovation 2024",
       excerpt: "Notre entreprise a été récompensée pour son approche innovante dans le secteur de la construction.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: "/new.png",
       date: "15 avril 2024",
       author: "Marie Leroy",
       readTime: "4 min",
@@ -97,7 +97,7 @@ export default function BlogPage() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <Building2 className="h-8 w-8 text-blue-600" />
-              <span className="ml-2 text-xl font-bold text-gray-900">ConstructPro</span>
+              <span className="ml-2 text-xl font-bold text-gray-900">ETRAP-CP</span>
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">

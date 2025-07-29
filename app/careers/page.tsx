@@ -119,7 +119,7 @@ export default function CareersPage() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <Building2 className="h-8 w-8 text-blue-600" />
-              <span className="ml-2 text-xl font-bold text-gray-900">ConstructPro</span>
+              <span className="ml-2 text-xl font-bold text-gray-900">ETRAP-CP</span>
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
@@ -177,7 +177,7 @@ export default function CareersPage() {
                 Construisez Votre Carrière Avec Nous
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Chez ConstructPro, nous valorisons nos collaborateurs et leur offrons un environnement de travail
+                Chez ETRAP-CP, nous valorisons nos collaborateurs et leur offrons un environnement de travail
                 stimulant où chacun peut développer son potentiel. Rejoindre notre équipe, c'est participer à des
                 projets ambitieux et innovants dans un cadre professionnel et bienveillant.
               </p>
@@ -195,7 +195,7 @@ export default function CareersPage() {
 
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="/new.png"
                 alt="Équipe de construction"
                 width={600}
                 height={500}

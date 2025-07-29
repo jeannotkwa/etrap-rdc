@@ -12,19 +12,19 @@ export default function HomePage() {
       title: "Construction Neuve",
       description: "Maisons individuelles, bâtiments commerciaux et industriels",
       icon: Building2,
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/new.png",
     },
     {
       title: "Rénovation",
       description: "Rénovation complète et extension de bâtiments existants",
       icon: Users,
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/renex.png",
     },
     {
       title: "Architecture",
       description: "Conception, plans et suivi de projets architecturaux",
       icon: Award,
-      image: "/placeholder.svg?height=200&width=300",
+      image: "/artisant2.png",
     },
   ]
 
@@ -33,21 +33,21 @@ export default function HomePage() {
       title: "Villa Moderne - Résidentiel",
       location: "Lyon, France",
       category: "Construction Neuve",
-      image: "/placeholder.svg?height=250&width=400",
+      image: "/artisant3.png",
       description: "Villa contemporaine de 200m² avec piscine et jardin paysager",
     },
     {
       title: "Centre Commercial - Commercial",
       location: "Marseille, France",
       category: "Gros Œuvre",
-      image: "/placeholder.svg?height=250&width=400",
+      image: "/artisant3.png",
       description: "Centre commercial de 5000m² avec parking souterrain",
     },
     {
       title: "Rénovation Loft - Résidentiel",
       location: "Paris, France",
       category: "Rénovation",
-      image: "/placeholder.svg?height=250&width=400",
+      image: "/artisant3.png",
       description: "Transformation d'un ancien entrepôt en loft de luxe",
     },
   ]
@@ -65,9 +65,9 @@ export default function HomePage() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-blue-900 to-blue-700 text-white">
+      <section className="relative bg-gradient-to-r from-blue-900 to-blue-700 text-white back-artisant">
         <div className="absolute inset-0 bg-black opacity-50"></div>
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 ">
           <div className="text-center">
             <h1 className="text-4xl md:text-6xl font-bold mb-6">
               Construisons Ensemble
@@ -241,7 +241,7 @@ export default function HomePage() {
 
             <div className="relative">
               <Image
-                src="/placeholder.svg?height=500&width=600"
+                src="/ekip.png"
                 alt="Équipe de construction"
                 width={600}
                 height={500}
@@ -336,7 +336,7 @@ export default function HomePage() {
             <div>
               <div className="flex items-center mb-4">
                 <Building2 className="h-8 w-8 text-blue-400" />
-                <span className="ml-2 text-xl font-bold">ConstructPro</span>
+                <span className="ml-2 text-xl font-bold">ETRAP-CP</span>
               </div>
               <p className="text-gray-400 mb-4">
                 Votre partenaire de confiance pour tous vos projets de construction et d'architecture.
@@ -408,14 +408,15 @@ export default function HomePage() {
                 </div>
                 <div className="flex items-center">
                   <Mail className="h-4 w-4 mr-2" />
-                  <span>contact@constructpro.fr</span>
+                  <span>contact@etrap-cp.com
+.fr</span>
                 </div>
               </div>
             </div>
           </div>
 
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; 2024 ConstructPro. Tous droits réservés.</p>
+            <p>&copy; 2024 ETRAP. Tous droits réservés.</p>
           </div>
         </div>
       </footer>

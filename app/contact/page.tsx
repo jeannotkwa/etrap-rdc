@@ -22,7 +22,7 @@ export default function ContactPage() {
     phone: "",
     projectType: "",
     budget: "",
-    message: "",
+    description: "",
   })
 
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -30,53 +30,106 @@ export default function ContactPage() {
     type: "success" | "error" | null
     message: string
   }>({ type: null, message: "" })
+///////////////////////////
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  setIsSubmitting(true);
+  setSubmitStatus({ type: null, message: "" })
+  const id = 'xkgzoqjl' 
+  // || 'xovljnzz'
+  try {
+    const response = await fetch("https://formspree.io/f/"+id, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: JSON.stringify(formData) // ← conversion correcte
+    });
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault()
-    setIsSubmitting(true)
-    setSubmitStatus({ type: null, message: "" })
-
-    try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      })
-
-      const data = await response.json()
-
-      if (response.ok) {
-        setSubmitStatus({
-          type: "success",
-          message: data.message,
-        })
-        // Réinitialiser le formulaire
-        setFormData({
-          firstName: "",
-          lastName: "",
-          email: "",
-          phone: "",
-          projectType: "",
-          budget: "",
-          message: "",
-        })
-      } else {
-        setSubmitStatus({
-          type: "error",
-          message: data.error || "Une erreur est survenue",
-        })
-      }
-    } catch (error) {
+    if (response.ok) {
       setSubmitStatus({
-        type: "error",
-        message: "Erreur de connexion. Veuillez réessayer.",
-      })
-    } finally {
-      setIsSubmitting(false)
+                type: "success",
+                message: 'Votre devis est envoyer vous serez recontacter d\'ici peut !',
+              })
+      // Reset du formulaire si tu veux :
+      setFormData({
+        firstName: "",
+        lastName: "",
+        email: "",
+        phone: "",
+        projectType: "",
+        budget: "",
+        description: ""
+      });
+    } else {
+      const data = await response.json();
+      setSubmitStatus({
+                type: "error",
+                message: data.error || "Une erreur est survenue",
+              })
+      // alert(`Erreur : ${data?.error || "Une erreur est survenue"}`);
     }
+  } catch (err) {
+    // console.error("Erreur lors de l'envoi du formulaire :", err);
+    setSubmitStatus({
+      type: "error",
+      message: "Une erreur s'est produite. Veuillez réessayer.",
+    })
+    alert("Une erreur s'est produite. Veuillez réessayer.");
+  } finally {
+    setIsSubmitting(false);
   }
+};
+
+///////////////////////////
+  
+  // const handleSubmit = async (e: React.FormEvent) => {
+  //   e.preventDefault()
+  //   setIsSubmitting(true)
+  //   setSubmitStatus({ type: null, message: "" })
+
+  //   try {
+  //     const response = await fetch("/api/contact", {
+  //       method: "POST",
+  //       headers: {
+  //         "Content-Type": "application/json",
+  //       },
+  //       body: JSON.stringify(formData),
+  //     })
+
+  //     const data = await response.json()
+
+  //     if (response.ok) {
+  //       setSubmitStatus({
+  //         type: "success",
+  //         message: data.message,
+  //       })
+  //       // Réinitialiser le formulaire
+  //       setFormData({
+  //         firstName: "",
+  //         lastName: "",
+  //         email: "",
+  //         phone: "",
+  //         projectType: "",
+  //         budget: "",
+  //         message: "",
+  //       })
+  //     } else {
+  //       setSubmitStatus({
+  //         type: "error",
+  //         message: data.error || "Une erreur est survenue",
+  //       })
+  //     }
+  //   } catch (error) {
+  //     setSubmitStatus({
+  //       type: "error",
+  //       message: "Erreur de connexion. Veuillez réessayer.",
+  //     })
+  //   } finally {
+  //     setIsSubmitting(false)
+  //   }
+  // }
 
   const handleChange = (field: string, value: string) => {
     setFormData((prev) => ({ ...prev, [field]: value }))
@@ -134,7 +187,7 @@ export default function ContactPage() {
                       </AlertDescription>
                     </Alert>
                   )}
-
+{/* xovljnzz: */}
                   <form onSubmit={handleSubmit} className="space-y-6">
                     <div className="grid md:grid-cols-2 gap-4">
                       <div>
@@ -229,11 +282,11 @@ export default function ContactPage() {
                     <div>
                       <Label htmlFor="message">Description du Projet *</Label>
                       <Textarea
-                        id="message"
+                        id="description"
                         rows={6}
                         placeholder="Décrivez votre projet en détail : localisation, surface, délais souhaités, contraintes particulières..."
-                        value={formData.message}
-                        onChange={(e) => handleChange("message", e.target.value)}
+                        value={formData.description}
+                        onChange={(e) => handleChange("description", e.target.value)}
                         required
                         disabled={isSubmitting}
                       />
@@ -269,9 +322,9 @@ export default function ContactPage() {
                     <div>
                       <p className="font-medium">Adresse</p>
                       <p className="text-gray-600">
-                        123 Rue de la Construction
+                        Avenue Caniveau N04286
                         <br />
-                        69000 Lyon, France
+                        Q/Bon Marché/lSTA-NDOLO, C/Barumba
                       </p>
                     </div>
                   </div>
@@ -282,7 +335,7 @@ export default function ContactPage() {
                       <p className="font-medium">Téléphone</p>
                       <p className="text-gray-600">
                         <a href="tel:+33478000000" className="hover:text-blue-600">
-                          04 78 XX XX XX
+                          810 008 127
                         </a>
                       </p>
                     </div>
@@ -293,8 +346,8 @@ export default function ContactPage() {
                     <div>
                       <p className="font-medium">Email</p>
                       <p className="text-gray-600">
-                        <a href="mailto:contact@constructpro.fr" className="hover:text-blue-600">
-                          contact@constructpro.fr
+                        <a href="mailto:contact@etrap-cp.com" className="hover:text-blue-600">
+                          contact@etrap-cp.com
                         </a>
                       </p>
                     </div>
@@ -305,7 +358,7 @@ export default function ContactPage() {
                     <div>
                       <p className="font-medium">Horaires</p>
                       <p className="text-gray-600">
-                        Lun - Ven : 8h00 - 18h00
+                        Lun - Ven : 8h00 - 17h00
                         <br />
                         Sam : 9h00 - 12h00
                       </p>
@@ -335,15 +388,9 @@ export default function ContactPage() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-gray-600 mb-3">
-                    Nous intervenons principalement dans la région Auvergne-Rhône-Alpes :
+                    Présente en République Démocratique du Congo et ouverte à l’international, 
+                    ETRAP CP INTERNATIONAL déploie son expertise partout où ses compétences sont sollicitées.
                   </p>
-                  <ul className="space-y-1 text-sm text-gray-600">
-                    <li>• Lyon et agglomération</li>
-                    <li>• Villefranche-sur-Saône</li>
-                    <li>• Bourg-en-Bresse</li>
-                    <li>• Saint-Étienne</li>
-                    <li>• Autres communes sur demande</li>
-                  </ul>
                 </CardContent>
               </Card>
             </div>
@@ -361,11 +408,20 @@ export default function ContactPage() {
 
           {/* Placeholder for Google Maps */}
           <div className="bg-gray-300 rounded-lg h-96 flex items-center justify-center">
+          <iframe
+          width="100%"
+          height="100%"
+          frameBorder="0"
+          scrolling="no"
+          src="https://www.openstreetmap.org/export/embed.html?bbox=4.8200%2C45.7500%2C4.8500%2C45.7700&layer=mapnik&marker=45.764043%2C4.835659"
+        >
+
             <div className="text-center">
-              <MapPin className="h-12 w-12 text-gray-500 mx-auto mb-4" />
+          
               <p className="text-gray-600">Carte Google Maps</p>
               <p className="text-sm text-gray-500">123 Rue de la Construction, 69000 Lyon</p>
             </div>
+        </iframe>
           </div>
         </div>
       </section>

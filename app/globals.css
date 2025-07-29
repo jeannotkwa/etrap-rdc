@@ -92,3 +92,11 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+
+.back-artisant{
+  background-image: url('../public/artisant1.png');
+}
+.overBack{
+z-index: 999;
+}

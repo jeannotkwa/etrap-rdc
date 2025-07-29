@@ -8,22 +8,22 @@ import { ChatbotProvider } from "@/components/chatbot/chatbot-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "ConstructPro - Construction et Architecture",
+  title: "ETRAP-CP - Construction et Architecture",
   description:
     "Spécialistes en construction, rénovation et architecture depuis 25 ans. Votre partenaire de confiance pour tous vos projets.",
   keywords: "construction, rénovation, architecture, bâtiment, Lyon, maison, commercial, industriel",
-  authors: [{ name: "ConstructPro" }],
+  authors: [{ name: "ETRAP-CP" }],
   openGraph: {
-    title: "ConstructPro - Construction et Architecture",
+    title: "ETRAP-CP - Construction et Architecture",
     description: "Spécialistes en construction, rénovation et architecture depuis 25 ans.",
-    url: "https://constructpro.fr",
-    siteName: "ConstructPro",
+    url: "https://etrap-cp.com",
+    siteName: "ETRAP-CP",
     images: [
       {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "ConstructPro - Construction et Architecture",
+        alt: "ETRAP-CP - Construction et Architecture",
       },
     ],
     locale: "fr_FR",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "ConstructPro - Construction et Architecture",
+    title: "ETRAP-CP - Construction et Architecture",
     description: "Spécialistes en construction, rénovation et architecture depuis 25 ans.",
     images: ["/og-image.jpg"],
   },

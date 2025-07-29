@@ -11,28 +11,24 @@ import { notFound } from "next/navigation"
 const projects = {
   "1": {
     id: 1,
-    title: "Villa Contemporaine Les Jardins",
+    title: "RENOVATION DE L'INSTITUT MOKENGELI",
     category: "residential",
-    location: "Lyon 6ème",
+    location: "Commune de Lemba, Kinshasa",
     year: "2024",
-    surface: "250 m²",
-    budget: "450 000€",
-    duration: "8 mois",
-    client: "Famille Dubois",
-    architect: "Marie Leroy",
+    surface: "2600 m²",
+    duration: "'4' mois",
+    client: "Communauté Présbyterienne de Kinshasa",
+    architect: "ETRAP CP INTERNATIONAL SARL",
     description:
-      "Villa moderne avec piscine et jardin paysager. Architecture contemporaine alliant confort et performance énergétique. Ce projet ambitieux combine design moderne et respect de l'environnement.",
+      "Située dans la commune de Lemba, l’École Conventionnée Protestante CS MOKENGELI, construite à l’époque coloniale, a bénéficié d’importants travaux de rénovation financés par le Fonds de Promotion de l’Industrie dans le cadre du Programme d’urgence de 100 jours du Chef de l’État, visant à moderniser ses infrastructures scolaires selon les normes en vigueur.",
     longDescription: `
-      Cette villa contemporaine de 250m² représente l'excellence de notre savoir-faire en construction résidentielle haut de gamme. 
-      Située dans le prestigieux 6ème arrondissement de Lyon, elle allie parfaitement modernité architecturale et performance énergétique.
+      Ecole Conventionnée Protestante de la Communauté Présbyterienne (CPK) Situé dans la commune de Lemba Construit dépuis l'époque colonniale, le CS MOKENGELI ne repondait pas aux normes en vigueur en matière des infranstructures scolaire
 
-      Le projet s'articule autour d'un concept architectural novateur privilégiant les espaces ouverts et la luminosité naturelle. 
-      Les grandes baies vitrées offrent une vue imprenable sur le jardin paysager de 800m² et créent une continuité parfaite entre 
-      l'intérieur et l'extérieur.
+      Inscrit dans le cadre du Programme d'urgence de 100 jours du Chef de I'Etat Félix Antoine TSHISEKEDI C'est dans ce cadre que le Fonds de Prommotion de l'Industrie avait subventionné les travaux de rénovation de cette ecole executé par ETRAP CP INTERNATIONAL Sari
+      suivant les travaux ci-après:
 
-      La villa intègre les dernières innovations en matière d'efficacité énergétique avec une isolation renforcée, 
-      une pompe à chaleur géothermique et des panneaux solaires photovoltaïques, permettant d'atteindre le label BBC 
-      (Bâtiment Basse Consommation).
+      Renforcement de la structure en béton armée, traitement des profilés métallique et protection contre anti rouille. Dépose et pose de la couverture en tôle ondulé pré-peint BG28 y compris accessoires des poses Fourniture et pose des faux plafonds en giproc y compris corniche Revêtement sol en granito et carreau anti dérapant Surélevèrent de la hauteur sous plafond de 2,10 m à 3,5 m
+
     `,
     images: [
       "/placeholder.svg?height=600&width=800&text=Vue+extérieure+principale",
@@ -67,8 +63,8 @@ const projects = {
       "Orientation sud-ouest optimisée avec brise-soleil automatiques",
     ],
     testimonial: {
-      text: "ConstructPro a dépassé toutes nos attentes. La qualité de construction est exceptionnelle et l'équipe a su nous accompagner tout au long du projet avec professionnalisme et écoute.",
-      author: "M. et Mme Dubois",
+      text: "ETRAP-CP a dépassé toutes nos attentes. La qualité de construction est exceptionnelle et l'équipe a su nous accompagner tout au long du projet avec professionnalisme et écoute.",
+      author: "Communauté Présbyterienne",
       role: "Propriétaires",
     },
   },
@@ -86,15 +82,15 @@ const projects = {
     description:
       "Centre commercial moderne avec parking souterrain de 200 places. Conception durable et espaces modulables pour une expérience shopping optimale.",
     longDescription: `
-      Le Centre Commercial Confluence représente un projet d'envergure de 5 000m² situé au cœur du dynamique 2ème arrondissement de Lyon. 
-      Ce complexe commercial moderne redéfinit l'expérience shopping avec ses espaces modulables et sa conception durable.
+      Cet ouvrage appartenant à un particulier se trouvant dans la commune de Barumbu à été construit suivant les normes en vigueur de construction, composé d'une complexité de fonctionnement par rapport à son exploitation. Il est composé des Bureaux, des Appartements, et de l'Espaces commercials.
 
-      L'architecture contemporaine du bâtiment privilégie la luminosité naturelle grâce à une verrière centrale de 800m² et des façades 
-      largement vitrées. Les espaces commerciaux modulables permettent d'accueillir aussi bien des grandes enseignes que des boutiques 
-      de créateurs locaux.
+      Les téchnologies en vigueur ont été installer notament :
+      - Installation du système de téléphonie interne
+      - Installation du système de contôle d'accès (La surété)
+      - Installation du système des cameras de surveillances
+      - Installation du système de détection des fumés Ainsi que amenagement des Bureaux et appartements et autres équipements.
 
-      Le projet intègre un parking souterrain de 200 places sur deux niveaux, équipé de bornes de recharge électrique et d'un système 
-      de ventilation naturelle innovant. La toiture végétalisée de 1 200m² contribue à la régulation thermique et à la biodiversité urbaine.
+      
     `,
     images: [
       "/placeholder.svg?height=600&width=800&text=Façade+principale+du+centre",
@@ -129,14 +125,14 @@ const projects = {
       "Système de sécurité incendie avec désenfumage naturel",
     ],
     testimonial: {
-      text: "Un projet complexe mené avec une expertise remarquable. ConstructPro a su gérer tous les aspects techniques tout en respectant nos délais serrés.",
+      text: "Un projet complexe mené avec une expertise remarquable. ETRAP-CP a su gérer tous les aspects techniques tout en respectant nos délais serrés.",
       author: "Jean-Pierre Martin",
       role: "Directeur Groupe Immobilier Rhône",
     },
   },
   "3": {
     id: 3,
-    title: "Rénovation Loft Industriel",
+    title: "NOVICIAT DEKINKONKA",
     category: "renovation",
     location: "Villeurbanne",
     year: "2024",
@@ -190,7 +186,7 @@ const projects = {
       "Double vitrage phonique sur les verrières",
     ],
     testimonial: {
-      text: "ConstructPro a su préserver l'âme de ce lieu tout en le modernisant. Le résultat dépasse nos espérances, c'est exactement le loft dont nous rêvions.",
+      text: "ETRAP-CP a su préserver l'âme de ce lieu tout en le modernisant. Le résultat dépasse nos espérances, c'est exactement le loft dont nous rêvions.",
       author: "Sophie et Marc Laurent",
       role: "Propriétaires",
     },
@@ -275,7 +271,7 @@ export default function ProjectDetailPage({ params }: PageProps) {
             {/* Main Content */}
             <div className="lg:col-span-2">
               <div className="prose max-w-none mb-12">
-                <h2 className="text-3xl font-bold mb-6">Description du Projet</h2>
+                <h2 className="text-3xl font-bold mb-6">Description des travaux</h2>
                 <div className="text-gray-600 leading-relaxed whitespace-pre-line">{project.longDescription}</div>
               </div>
 
@@ -374,11 +370,6 @@ export default function ProjectDetailPage({ params }: PageProps) {
                       <span className="font-medium">Surface:</span>
                       <br />
                       <span className="text-gray-600">{project.surface}</span>
-                    </div>
-                    <div>
-                      <span className="font-medium">Budget:</span>
-                      <br />
-                      <span className="text-gray-600">{project.budget}</span>
                     </div>
                   </div>
                 </CardContent>

@@ -26,16 +26,16 @@ export default function PortfolioPage() {
   const projects = [
     {
       id: 1,
-      title: "Villa Contemporaine Les Jardins",
+      title: "RENOTAVION  DE L'INSTITUT MOKENGELI",
       category: "residential",
-      location: "Lyon 6ème",
+      location: "Lieu : Lemba, Kinshasa",
       year: "2024",
       surface: "250 m²",
       budget: "450 000€",
       description:
-        "Villa moderne avec piscine et jardin paysager. Architecture contemporaine alliant confort et performance énergétique.",
-      image: "/placeholder.svg?height=300&width=400",
-      tags: ["Construction Neuve", "Maison Individuelle", "Piscine"],
+        "Rénovation du CS MOKENGELI, école protestante à Lemba, dans le cadre du Programme de 100 jours : renforcement structurel, toiture, plafonds et revêtements modernisés.",
+      image: "/artisant3.png",
+      tags: ["Rénovation", "Aménagement", "Design"],
       services: ["Gros Œuvre", "Second Œuvre", "Aménagement Extérieur"],
     },
     {
@@ -48,7 +48,7 @@ export default function PortfolioPage() {
       budget: "2 500 000€",
       description:
         "Centre commercial moderne avec parking souterrain de 200 places. Conception durable et espaces modulables.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/artisant3.png",
       tags: ["Gros Œuvre", "Commercial", "Parking"],
       services: ["Construction", "Aménagement", "Parking"],
     },
@@ -62,7 +62,7 @@ export default function PortfolioPage() {
       budget: "180 000€",
       description:
         "Transformation complète d'un ancien entrepôt en loft de luxe. Conservation des éléments industriels authentiques.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/artisant3.png",
       tags: ["Rénovation", "Loft", "Industriel"],
       services: ["Rénovation", "Aménagement", "Design"],
     },
@@ -76,7 +76,7 @@ export default function PortfolioPage() {
       budget: "1 800 000€",
       description:
         "Résidence de 12 appartements avec terrasses et espaces verts. Architecture bioclimatique et matériaux durables.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/artisant3.png",
       tags: ["Logement Collectif", "Terrasses", "Écologique"],
       services: ["Construction", "Architecture", "Paysagisme"],
     },
@@ -90,7 +90,7 @@ export default function PortfolioPage() {
       budget: "1 200 000€",
       description:
         "Usine moderne respectant les normes alimentaires les plus strictes. Conception optimisée pour les flux de production.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/artisant3.png",
       tags: ["Industriel", "Agroalimentaire", "Normes"],
       services: ["Gros Œuvre", "Installations", "Normes"],
     },
@@ -104,7 +104,7 @@ export default function PortfolioPage() {
       budget: "3 200 000€",
       description:
         "École primaire de 12 classes avec restaurant scolaire. Bâtiment passif avec panneaux solaires et récupération d'eau.",
-      image: "/placeholder.svg?height=300&width=400",
+      image: "/artisant3.png",
       tags: ["Public", "École", "Écologique"],
       services: ["Construction", "Énergies Renouvelables", "Aménagement"],
     },

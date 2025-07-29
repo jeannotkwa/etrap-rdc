@@ -13,28 +13,28 @@ export default function RenovationPage() {
       title: "Rénovation Complète",
       description: "Transformation totale de votre habitat avec restructuration des espaces.",
       features: ["Démolition et reconstruction", "Nouveaux agencements", "Mise aux normes complète", "Design moderne"],
-      image: "/placeholder.svg?height=300&width=400&text=Rénovation+Complète",
+      image: "/artisant3.png&text=Rénovation+Complète",
     },
     {
       icon: Zap,
       title: "Rénovation Énergétique",
       description: "Amélioration de la performance énergétique pour réduire vos factures.",
       features: ["Isolation renforcée", "Chauffage performant", "Ventilation optimisée", "Aides financières"],
-      image: "/placeholder.svg?height=300&width=400&text=Rénovation+Énergétique",
+      image: "/artisant3.png&text=Rénovation+Énergétique",
     },
     {
       icon: Building,
       title: "Extension & Agrandissement",
       description: "Agrandissement de votre espace de vie sans déménager.",
       features: ["Extension horizontale", "Surélévation", "Véranda", "Aménagement combles"],
-      image: "/placeholder.svg?height=300&width=400&text=Extension+Maison",
+      image: "/artisant3.png&text=Extension+Maison",
     },
     {
       icon: Palette,
       title: "Rénovation Décorative",
       description: "Rafraîchissement et modernisation de vos espaces intérieurs.",
       features: ["Peinture et revêtements", "Sols et carrelages", "Cuisine et salle de bain", "Éclairage design"],
-      image: "/placeholder.svg?height=300&width=400&text=Rénovation+Décorative",
+      image: "/artisant3.png&text=Rénovation+Décorative",
     },
   ]
 
@@ -43,16 +43,16 @@ export default function RenovationPage() {
       title: "Appartement Haussmannien",
       location: "Lyon 6ème",
       surface: "120 m²",
-      before: "/placeholder.svg?height=300&width=400&text=Avant+Rénovation",
-      after: "/placeholder.svg?height=300&width=400&text=Après+Rénovation",
+      before: "/artisant3.png&text=Avant+Rénovation",
+      after: "/artisant3.png&text=Après+Rénovation",
       description: "Rénovation complète avec ouverture des espaces et modernisation.",
     },
     {
       title: "Maison des Années 70",
       location: "Villeurbanne",
       surface: "150 m²",
-      before: "/placeholder.svg?height=300&width=400&text=Avant+Rénovation+70s",
-      after: "/placeholder.svg?height=300&width=400&text=Après+Rénovation+Moderne",
+      before: "/artisant3.png&text=Avant+Rénovation+70s",
+      after: "/artisant3.png&text=Après+Rénovation+Moderne",
       description: "Transformation énergétique et esthétique complète.",
     },
   ]
@@ -87,7 +87,7 @@ export default function RenovationPage() {
             </div>
             <div>
               <Image
-                src="/placeholder.svg?height=500&width=600&text=Rénovation+Moderne"
+                src="/new.png&text=Rénovation+Moderne"
                 alt="Rénovation moderne"
                 width={600}
                 height={500}

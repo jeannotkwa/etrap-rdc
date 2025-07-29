@@ -13,28 +13,28 @@ export default function ArchitecturePage() {
       title: "Études de Faisabilité",
       description: "Analyse complète de votre projet pour valider sa faisabilité technique et réglementaire.",
       features: ["Étude de terrain", "Contraintes urbanistiques", "Budget prévisionnel", "Planning réaliste"],
-      image: "/placeholder.svg?height=300&width=400&text=Étude+Faisabilité",
+      image: "/artisant3.png&text=Étude+Faisabilité",
     },
     {
       icon: FileText,
       title: "Conception & Plans",
       description: "Création de plans architecturaux personnalisés selon vos besoins et contraintes.",
       features: ["Plans 2D et 3D", "Modélisation BIM", "Rendus photoréalistes", "Plans techniques"],
-      image: "/placeholder.svg?height=300&width=400&text=Plans+Architecture",
+      image: "/artisant3.png&text=Plans+Architecture",
     },
     {
       icon: Eye,
       title: "Permis de Construire",
       description: "Constitution et suivi de votre dossier de permis de construire jusqu'à l'obtention.",
       features: ["Dossier complet", "Suivi administratif", "Modifications si nécessaire", "Délais optimisés"],
-      image: "/placeholder.svg?height=300&width=400&text=Permis+Construire",
+      image: "/artisant3.png&text=Permis+Construire",
     },
     {
       icon: Cog,
       title: "Suivi de Chantier",
       description: "Accompagnement et contrôle de la réalisation pour respecter les plans et la qualité.",
       features: ["Visites régulières", "Contrôle qualité", "Coordination équipes", "Réception travaux"],
-      image: "/placeholder.svg?height=300&width=400&text=Suivi+Chantier",
+      image: "/artisant3.png&text=Suivi+Chantier",
     },
   ]
 
@@ -42,19 +42,19 @@ export default function ArchitecturePage() {
     {
       title: "Architecture Contemporaine",
       description: "Lignes épurées, matériaux modernes et intégration environnementale.",
-      image: "/placeholder.svg?height=300&width=400&text=Architecture+Contemporaine",
+      image: "/artisant3.png&text=Architecture+Contemporaine",
       features: ["Design minimaliste", "Grandes ouvertures", "Matériaux nobles", "Efficacité énergétique"],
     },
     {
       title: "Architecture Traditionnelle",
       description: "Respect du patrimoine local avec matériaux et techniques traditionnels.",
-      image: "/placeholder.svg?height=300&width=400&text=Architecture+Traditionnelle",
+      image: "/artisant3.png&text=Architecture+Traditionnelle",
       features: ["Matériaux locaux", "Savoir-faire artisanal", "Intégration paysagère", "Charme authentique"],
     },
     {
       title: "Architecture Bioclimatique",
       description: "Conception optimisée pour le climat local et l'efficacité énergétique.",
-      image: "/placeholder.svg?height=300&width=400&text=Architecture+Bioclimatique",
+      image: "/artisant3.png&text=Architecture+Bioclimatique",
       features: ["Orientation optimale", "Isolation performante", "Énergies renouvelables", "Confort naturel"],
     },
   ]
@@ -65,21 +65,21 @@ export default function ArchitecturePage() {
       role: "Architecte en Chef",
       speciality: "Architecture résidentielle et commerciale",
       experience: "15 ans",
-      image: "/placeholder.svg?height=300&width=300&text=Marie+Leroy",
+      image: "renex.png&text=Marie+Leroy",
     },
     {
       name: "Thomas Dubois",
       role: "Architecte Senior",
       speciality: "Rénovation et patrimoine",
       experience: "12 ans",
-      image: "/placeholder.svg?height=300&width=300&text=Thomas+Dubois",
+      image: "renex.png&text=Thomas+Dubois",
     },
     {
       name: "Sophie Martin",
       role: "Architecte",
       speciality: "Architecture durable et bioclimatique",
       experience: "8 ans",
-      image: "/placeholder.svg?height=300&width=300&text=Sophie+Martin",
+      image: "renex.png&text=Sophie+Martin",
     },
   ]
 
@@ -113,7 +113,7 @@ export default function ArchitecturePage() {
             </div>
             <div>
               <Image
-                src="/placeholder.svg?height=500&width=600&text=Architecture+Design"
+                src="/new.png&text=Architecture+Design"
                 alt="Architecture et design"
                 width={600}
                 height={500}

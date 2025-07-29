@@ -57,25 +57,25 @@ export default function ConstructionPage() {
       title: "Maisons Individuelles",
       description: "Construction de maisons sur mesure adaptées à vos besoins et votre budget.",
       features: ["Plans personnalisés", "Choix des matériaux", "Suivi personnalisé", "Garantie décennale"],
-      image: "/placeholder.svg?height=300&width=400&text=Maison+Individuelle",
+      image: "/artisant3.png&text=Maison+Individuelle",
     },
     {
       title: "Bâtiments Commerciaux",
       description: "Conception et construction de locaux commerciaux et bureaux.",
       features: ["Espaces modulables", "Normes ERP", "Accessibilité PMR", "Efficacité énergétique"],
-      image: "/placeholder.svg?height=300&width=400&text=Bâtiment+Commercial",
+      image: "/artisant3.png&text=Bâtiment+Commercial",
     },
     {
       title: "Constructions Industrielles",
       description: "Bâtiments industriels et entrepôts adaptés à votre activité.",
       features: ["Grandes portées", "Résistance renforcée", "Équipements spécialisés", "Normes industrielles"],
-      image: "/placeholder.svg?height=300&width=400&text=Bâtiment+Industriel",
+      image: "/artisant3.png&text=Bâtiment+Industriel",
     },
     {
       title: "Logements Collectifs",
       description: "Immeubles résidentiels et programmes immobiliers.",
       features: ["Optimisation des espaces", "Normes RT2020", "Espaces communs", "Parking intégré"],
-      image: "/placeholder.svg?height=300&width=400&text=Logement+Collectif",
+      image: "/artisant3.png&text=Logement+Collectif",
     },
   ]
 
@@ -132,7 +132,7 @@ export default function ConstructionPage() {
             </div>
             <div>
               <Image
-                src="/placeholder.svg?height=500&width=600&text=Construction+Moderne"
+                src="/new.png&text=Construction+Moderne"
                 alt="Construction moderne"
                 width={600}
                 height={500}
@@ -221,7 +221,7 @@ export default function ConstructionPage() {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Pourquoi Choisir ConstructPro</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Pourquoi Choisir ETRAP-CP</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Notre expertise et notre engagement qualité font la différence sur tous vos projets de construction.
             </p>
