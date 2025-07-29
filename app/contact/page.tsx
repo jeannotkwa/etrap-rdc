@@ -166,7 +166,7 @@ const handleSubmit = async (e: React.FormEvent) => {
             <div className="lg:col-span-2">
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-2xl">Demande de Devis Gratuit</CardTitle>
+                  <CardTitle className="text-2xl">Nous contacter</CardTitle>
                   <p className="text-gray-600">
                     Remplissez ce formulaire et nous vous recontacterons dans les 24h pour discuter de votre projet.
                   </p>
@@ -301,7 +301,7 @@ const handleSubmit = async (e: React.FormEvent) => {
                       ) : (
                         <>
                           <Send className="mr-2 h-5 w-5" />
-                          Envoyer ma Demande
+                          Envoyer
                         </>
                       )}
                     </Button>
