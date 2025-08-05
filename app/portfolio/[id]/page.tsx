@@ -31,12 +31,13 @@ const projects = {
 
     `,
     images: [
-      "/placeholder.svg?height=600&width=800&text=Vue+extérieure+principale",
-      "/placeholder.svg?height=600&width=800&text=Salon+avec+baies+vitrées",
-      "/placeholder.svg?height=600&width=800&text=Cuisine+moderne+ouverte",
-      "/placeholder.svg?height=600&width=800&text=Piscine+et+terrasse",
-      "/placeholder.svg?height=600&width=800&text=Chambre+parentale",
-      "/placeholder.svg?height=600&width=800&text=Jardin+paysager",
+      "/placeholder.svg?height=600&width=800&text=Loft+avant+rénovation",
+      "/images/mokengeli/mokengeli-1.png ",
+      "/images/mokengeli/mokengeli-2.png",
+      "/images/mokengeli/mokengeli-3.png",
+      "/images/mokengeli/mokengeli-4.png",
+      "/placeholder.svg?height=600&width=800&text=Loft+avant+rénovation",
+      "/placeholder.svg?height=600&width=800&text=Loft+avant+rénovation",
     ],
     tags: ["Construction Neuve", "Maison Individuelle", "Piscine", "BBC", "Domotique"],
     services: ["Gros Œuvre", "Second Œuvre", "Aménagement Extérieur", "Piscine"],
@@ -70,8 +71,8 @@ const projects = {
   },
   "2": {
     id: 2,
-    title: "Centre Commercial Confluence",
-    category: "commercial",
+    title: "Immeuble BEREKIA",
+    category: "Privé mixte",
     location: "Lyon 2ème",
     year: "2023",
     surface: "5 000 m²",
@@ -80,26 +81,37 @@ const projects = {
     client: "Groupe Immobilier Rhône",
     architect: "Cabinet Architecture Moderne",
     description:
-      "Centre commercial moderne avec parking souterrain de 200 places. Conception durable et espaces modulables pour une expérience shopping optimale.",
+      "Cet immeuble moderne, situé dans la commune de Barumbu et appartenant à un particulier, a été réalisé conformément aux normes de construction en vigueur. Il comprend une combinaison fonctionnelle de bureaux, appartements résidentiels et espaces commerciaux, offrant une exploitation polyvalente et efficace. Le bâtiment est équipé de plusieurs technologies de pointe assurant confort, sécurité et fonctionnalité, notamment :",
     longDescription: `
-      Cet ouvrage appartenant à un particulier se trouvant dans la commune de Barumbu à été construit suivant les normes en vigueur de construction, composé d'une complexité de fonctionnement par rapport à son exploitation. Il est composé des Bureaux, des Appartements, et de l'Espaces commercials.
+      L’ouvrage est structuré autour de trois fonctions principales :
 
-      Les téchnologies en vigueur ont été installer notament :
-      - Installation du système de téléphonie interne
-      - Installation du système de contôle d'accès (La surété)
-      - Installation du système des cameras de surveillances
-      - Installation du système de détection des fumés Ainsi que amenagement des Bureaux et appartements et autres équipements.
+      - Un espace administratif, comprenant plusieurs bureaux conçus pour accueillir diverses activités professionnelles ;
+      - Des appartements résidentiels, aménagés pour offrir confort, luminosité et sécurité aux futurs occupants ;
+      - Un espace commercial au rez-de-chaussée, conçu pour une exploitation optimale en milieu urbain dense.
 
+      Le bâtiment est conçu pour répondre aux normes de construction en vigueur, avec une attention particulière portée à l'efficacité énergétique et à la durabilité des matériaux utilisés.
+
+     ETRAP CP INTERNATIONAL a assuré la conception, la réalisation et l’équipement technique de l’immeuble, en intégrant les éléments suivants :
+
+      ✅ Installation d’un système de téléphonie interne, facilitant la communication entre les différents services et niveaux du bâtiment ;
+
+      ✅ Mise en place d’un système de contrôle d’accès (badge ou digicode) garantissant la sécurité des occupants et des zones sensibles ;
+
+      ✅ Installation d’un réseau de caméras de vidéosurveillance couvrant les points stratégiques pour assurer une surveillance continue ;
+
+      ✅ Système de détection des fumées, conforme aux normes de sécurité incendie, pour une alerte rapide en cas de départ de feu ;
+
+      ✅ Aménagement complet des bureaux et appartements, incluant le mobilier, les finitions de haute qualité, les installations sanitaires et électriques, ainsi que les équipements complémentaires requis pour l’exploitation.
       
     `,
-    images: [
-      "/placeholder.svg?height=600&width=800&text=Façade+principale+du+centre",
-      "/placeholder.svg?height=600&width=800&text=Hall+central+avec+verrière",
-      "/placeholder.svg?height=600&width=800&text=Galerie+commerciale",
-      "/placeholder.svg?height=600&width=800&text=Parking+souterrain",
-      "/placeholder.svg?height=600&width=800&text=Toiture+végétalisée",
-      "/placeholder.svg?height=600&width=800&text=Espace+restauration",
-    ],
+ images: [
+  "/images/immeuble-berekia/1.png",
+  "/images/immeuble-berekia/2.png",
+  "/images/immeuble-berekia/3.png",
+  "/images/immeuble-berekia/4.png",
+  "/placeholder.svg?height=600&width=800&text=Loft+avant+rénovation",
+  "/placeholder.svg?height=600&width=800&text=Loft+avant+rénovation",
+],
     tags: ["Gros Œuvre", "Commercial", "Parking", "Développement Durable", "Verrière"],
     services: ["Construction", "Aménagement", "Parking", "Espaces Verts"],
     features: [
@@ -125,9 +137,7 @@ const projects = {
       "Système de sécurité incendie avec désenfumage naturel",
     ],
     testimonial: {
-      text: "Un projet complexe mené avec une expertise remarquable. ETRAP-CP a su gérer tous les aspects techniques tout en respectant nos délais serrés.",
-      author: "Jean-Pierre Martin",
-      role: "Directeur Groupe Immobilier Rhône",
+      text: "ETRAP-CP a su allier modernité et fonctionnalité dans ce projet ambitieux. Leur expertise technique et leur réactivité ont été déterminantes pour le succès de cette réalisation.",
     },
   },
   "3": {

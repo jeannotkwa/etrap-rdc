@@ -40,15 +40,15 @@ export default function PortfolioPage() {
     },
     {
       id: 2,
-      title: "Centre Commercial Confluence",
+      title: "Immeuble BEREKIA",
       category: "commercial",
       location: "Lyon 2ème",
       year: "2023",
       surface: "5 000 m²",
       budget: "2 500 000€",
       description:
-        "Centre commercial moderne avec parking souterrain de 200 places. Conception durable et espaces modulables.",
-      image: "/artisant3.png",
+        "Construction d’un immeuble multifonctionnel – Commune de Barumbu",
+      image: "1.png",
       tags: ["Gros Œuvre", "Commercial", "Parking"],
       services: ["Construction", "Aménagement", "Parking"],
     },
@@ -61,7 +61,7 @@ export default function PortfolioPage() {
       surface: "180 m²",
       budget: "180 000€",
       description:
-        "Transformation complète d'un ancien entrepôt en loft de luxe. Conservation des éléments industriels authentiques.",
+        "Ce projet illustre la capacité de ETRAP CP INTERNATIONAL à intégrer à la fois l’exigence architecturale, la performance technique et la fonctionnalité d’exploitation, tout en respectant les délais et les standards imposés par le maître d’ouvrage.", 
       image: "/artisant3.png",
       tags: ["Rénovation", "Loft", "Industriel"],
       services: ["Rénovation", "Aménagement", "Design"],
