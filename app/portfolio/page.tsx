@@ -34,7 +34,7 @@ export default function PortfolioPage() {
       budget: "450 000€",
       description:
         "Rénovation du CS MOKENGELI, école protestante à Lemba, dans le cadre du Programme de 100 jours : renforcement structurel, toiture, plafonds et revêtements modernisés.",
-      image: "/artisant3.png",
+      image: "/images/mokengeli/mokengeli-4.png",
       tags: ["Rénovation", "Aménagement", "Design"],
       services: ["Gros Œuvre", "Second Œuvre", "Aménagement Extérieur"],
     },
@@ -47,14 +47,14 @@ export default function PortfolioPage() {
       surface: "5 000 m²",
       budget: "2 500 000€",
       description:
-        "Construction d’un immeuble multifonctionnel – Commune de Barumbu",
+        "Construction d’un immeuble multifonctionnel – Commune de Barumbu. Ce projet illustre la capacité de ETRAP CP INTERNATIONAL à intégrer à la fois l’exigence architecturale, la performance technique et la fonctionnalité d’exploitation, tout en respectant les délais et les standards imposés par le maître d’ouvrage.", 
       image: "1.png",
       tags: ["Gros Œuvre", "Commercial", "Parking"],
       services: ["Construction", "Aménagement", "Parking"],
     },
     {
       id: 3,
-      title: "Rénovation Loft Industriel",
+      title: "Institut National de la Statistique (INS)",
       category: "renovation",
       location: "Villeurbanne",
       year: "2024",
@@ -62,13 +62,13 @@ export default function PortfolioPage() {
       budget: "180 000€",
       description:
         "Ce projet illustre la capacité de ETRAP CP INTERNATIONAL à intégrer à la fois l’exigence architecturale, la performance technique et la fonctionnalité d’exploitation, tout en respectant les délais et les standards imposés par le maître d’ouvrage.", 
-      image: "/artisant3.png",
+      image: "/images/ins/1.png",
       tags: ["Rénovation", "Loft", "Industriel"],
       services: ["Rénovation", "Aménagement", "Design"],
     },
     {
       id: 4,
-      title: "Résidence Les Terrasses",
+      title: "CBCO FRANCOPHONE DE KINTAMBO",
       category: "residential",
       location: "Caluire-et-Cuire",
       year: "2023",
